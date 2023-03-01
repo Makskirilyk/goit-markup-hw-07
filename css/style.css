@@ -875,13 +875,16 @@ color: var(--text-color);
   margin: 0;
   padding: 0;
 margin-top: 16px;
+height: 200px;
+margin-right:150px;
 }
 .conteiner-mobile{
   padding: 40px;
   display: flex;
   flex-wrap: wrap;
-
   height: 100%;
+ 
+  align-items: flex-start;
 }
 .address-contacts{
   margin-top: auto;
@@ -1171,7 +1174,7 @@ justify-content: center;
     color: #e7e9fc;
     margin: 0;
     width: 264px;
-    text-align: center;
+
     margin: 0 auto;
   }
   .title-footer {
@@ -1289,8 +1292,8 @@ margin-bottom: 72px;
   row-gap: 72px;
   }
   .page-first-section{
-margin-top: 96px;
-margin-bottom: 96px;
+padding-top: 96px;
+padding-bottom: 96px;
   }
   .hero {
 padding-top: 112px;
@@ -1336,7 +1339,7 @@ padding-bottom: 112px;
     border-radius: 4px;
     border: none;
     text-align: center;
-    margin-top: 88px;
+    margin-top: 72px;
     padding: 16px 32px;
   
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1712,6 +1715,9 @@ justify-content: center;
     margin-top: 0;
     margin-left: 24px;
   }
+  .button{
+    margin-top: 40px;
+  }
   .conteiner-footer{
     display: inline-block;
   }
@@ -1894,6 +1900,10 @@ screen and (min-resolution:2dppx) and (min-width:768px) {
   }
 }/* Min-width */
 @media screen and (min-width:1158px) { 
+  .hero{
+    padding-top: 188px;
+    padding-bottom: 188px;
+  }
   .mail-post{
     font-size: 16px;
   }
@@ -1917,6 +1927,9 @@ screen and (min-resolution:2dppx) and (min-width:768px) {
   }
   .list-button{
     margin-bottom: 72px;
+  }
+  .button{
+    margin-top: 48px;
   }
   .list-photo-item{
 row-gap: 48px;    
@@ -1996,8 +2009,8 @@ row-gap: 48px;
   padding-right: 15px;
 }
 .page-first-section{
-  margin-top: 120px;
-  margin-bottom: 120px;
+  padding-top: 120px;
+padding-bottom: 0;
 }
 .title {
   font-size: 40px;
